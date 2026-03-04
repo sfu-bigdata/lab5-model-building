@@ -1,0 +1,19 @@
+{
+  "model_name": "Random Forest",
+  "best_params": {
+    "max_depth": 10,
+    "min_samples_leaf": 2,
+    "min_samples_split": 2,
+    "n_estimators": 200
+  },
+  "cv_roc_auc": 0.8848,
+  "test_accuracy": 0.9595,
+  "test_roc_auc": 0.8866,
+  "feature_importance": {
+    "businesstype_enc": 0.2238,
+    "localarea_enc": 0.0239,
+    "numberofemployees": 0.0651,
+    "feepaid": 0.4308,
+    "folderyear": 0.2564
+  }
+}
